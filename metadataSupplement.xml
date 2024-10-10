@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metadataSupplement>
+    <tables>
+        <table dataLocale="en_US" dataSources="ds13" resourceIdentifier="'cas-shared-default','CASUSER(raldweik@uwo.ca)','ALERT_GRAPH','en_US'" tableModifiedTimeStamp="2024-10-02T04:56:50.257Z">
+            <columns>
+                <column dataType="double" format="TIME8" label="Time" xref="Time"/>
+                <column dataType="double" format="BEST12." label="# of Ongoing Alerts" xref="# of Ongoing Alerts"/>
+                <column dataType="double" format="BEST12." label="# of New Alerts" xref="# of New Alerts"/>
+                <column dataType="double" format="BEST12." label="# of Resolved Alerts" xref="# of Resolved Alerts"/>
+                <column dataType="double" format="BEST12." label="# of Ongoing Critical Alerts" xref="# of Ongoing Critical Alerts"/>
+                <column dataType="double" format="BEST12." label="# of New Critical Alerts" xref="# of New Critical Alerts"/>
+                <column dataType="double" format="BEST12." label="# of Resolved Critical Alerts" xref="# of Resolved Critical Alerts"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds83" resourceIdentifier="'cas-shared-default','CASUSER(raldweik@uwo.ca)','ALERT_TABLE','en_US'" tableModifiedTimeStamp="2024-10-02T05:07:19.928Z">
+            <columns>
+                <column dataType="string" label="Region" xref="Region"/>
+                <column dataType="double" format="BEST12." label="# of Alerts" xref="# of Alerts"/>
+                <column dataType="double" format="BEST12." label="# of Critical Alerts" xref="# of Critical Alerts"/>
+                <column dataType="double" format="BEST12." label="# of Ongoing Alerts" xref="# of Ongoing Alerts"/>
+                <column dataType="double" format="BEST12." label="# of Closed Alerts" xref="# of Closed Alerts"/>
+                <column dataType="double" format="BEST12." label="# of New Alerts for Past 4 Hours" xref="# of New Alerts for Past 4 Hours"/>
+                <column dataType="double" format="BEST12." label="# of Closed Alerts for Past 4 Hours" xref="# of Closed Alerts for Past 4 Hours"/>
+            </columns>
+        </table>
+    </tables>
+    <version>2</version>
+</metadataSupplement>
